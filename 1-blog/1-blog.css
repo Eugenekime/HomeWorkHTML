@@ -1,0 +1,105 @@
+header li {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  color: #fff;
+}
+
+.myBlog {
+  line-height: 21.09px;
+}
+
+header nav ul li {
+  color: #fff;
+  list-style: none;
+}
+
+header nav {
+  margin: 0 0 80px 0;
+}
+
+#frontend {
+  color: rgb(255, 255, 255, 0.6);
+  margin: 0 0 14px 0;
+}
+
+input {
+  background-color: rgba(31, 41, 55, 0.6);
+  height: 40px;
+  width: 224px;
+  border-radius: 100px;
+  border: none;
+}
+
+input[type=text] {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+}
+
+input+p {
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 16.41px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 400px;
+  line-height: 38px;
+  color: #fff;
+  margin: 0 0 30px 0;
+}
+
+div {
+  margin: 0 0 28px 0;
+}
+
+main section div p {
+  margin: 0 0 0 0;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+}
+
+div p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #fff;
+}
+
+.p2 {
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.mainImage {
+  margin-bottom: 69px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #fff;
+  margin: 0 0 0 0;
+}
+
+.theoryofcolor {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+footer p {
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 103px 0 77px 0;
+}
+
+body {
+  background-color: #374151;
+}
