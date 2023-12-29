@@ -13,9 +13,8 @@ main {
 }
 
 body {
-  background-color: #F39494;
+  background: linear-gradient(0deg, #F39494, #F39494), linear-gradient(243.18deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0) 100%), linear-gradient(243.43deg, #FFA5A5 32.96%, rgba(255, 255, 255, 0) 82.03%);
 }
-
 
 h1 {
   font-size: 36px;
@@ -82,9 +81,21 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
+button:hover {
+  box-shadow: 1px 2px 2px grey;
+}
 
+button:active {
+  box-shadow: none;
+}
+
+img {
+  position: absolute;
+  right: 10px;
+}
 
 .check {
   color: #666666;

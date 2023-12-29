@@ -1,0 +1,177 @@
+body {
+  font-family: "roboto", serif;
+  max-width: 1440px;
+  margin: 0 auto;
+  background: linear-gradient(180deg, #374151 0%, #111827 100%);
+}
+
+header {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+#wordB {
+  margin: 0;
+  width: 35px;
+  height: 25px;
+  background-color: #4B5563;
+  box-shadow: 0px 15px 30px 0px #00000026;
+  border-radius: 3px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 8px;
+  margin-right: 11px;
+}
+
+header nav ul li {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  color: #fff;
+}
+
+.myBlog {
+  line-height: 21.09px;
+  margin: 0 77px 0 0;
+}
+
+header nav ul li:nth-child(3) {
+  margin: 0 52px 0 0;
+}
+
+header nav ul li:nth-child(4) {
+  margin: 0 39px 0 0;
+}
+
+header nav ul li:nth-child(5) {
+  margin-right: 346px;
+}
+
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  padding-top: 80px;
+  padding-left: 0;
+  margin-left: 180px;
+}
+
+header nav ul li {
+  color: #fff;
+  list-style: none;
+}
+
+header nav {
+  margin: 0 0 80px 0;
+}
+
+.loopa {
+  position: relative;
+}
+
+.loopa>img {
+  position: absolute;
+  left: 18px;
+  top: 14px;
+}
+
+.section {
+  text-align: center;
+}
+
+.author {
+  display: flex;
+  justify-content: center;
+}
+
+#frontend {
+  color: rgb(255, 255, 255, 0.6);
+  margin: 0 0 14px 0;
+}
+
+
+input {
+  background-color: rgba(31, 41, 55, 0.6);
+  height: 40px;
+  width: calc(224px - 49px);
+  border-radius: 100px;
+  border: none;
+}
+
+input[type=text] {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  padding-left: 49px;
+  color: #ffffff;
+}
+
+input+p {
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 16.41px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 400px;
+  line-height: 38px;
+  color: #fff;
+  margin: 0 0 30px 0;
+}
+
+.author {
+  margin: 0 0 28px 0;
+}
+
+main section div p {
+  margin: 0 0 0 0;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  padding-top: 7px;
+}
+
+div p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #fff;
+}
+
+.p2 {
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.mainImage {
+  margin-bottom: 69px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #fff;
+  margin: 0 0 0 0;
+}
+
+.theoryofcolor {
+  font-size: 20px;
+  line-height: 32px;
+  width: 708px;
+  margin: 0 auto;
+  font-family: "roboto", sans-serif;
+  text-align: left;
+}
+
+footer p {
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 103px 0 77px 0;
+  text-align: center;
+}
