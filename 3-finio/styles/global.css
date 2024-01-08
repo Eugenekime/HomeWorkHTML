@@ -1,0 +1,19 @@
+:root {
+  --color-blue: #357EFE;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+section {
+  width: 1156px;
+  margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+  section {
+    width: auto;
+  }
+}
