@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/companents.css">
+  <link rel="stylesheet" href="./styles/global.css">
+  <link rel="stylesheet" href="./styles/page.css">
+  <title>3-Finio</title>
+</head>
+
+<body>
+  <section>
+    <h1>Тарифы</h1>
+    <p>Все тарифы имеют полный функционал и отличаются только количеством месяцев и выгодой</p>
+
+
+    <div class="cards">
+      <!-- 1 month -->
+      <div class="card">
+        <div class="card__top">
+          <div class="discount-empty">111</div>
+          <div class="card__top_month">1 месяц</div>
+          <div class="card__top_afterMonth">Тариф подойдёт тем, кто ведёт краткосрочные проекты</div>
+        </div>
+        <div class="card__bottom">
+          <div class="card__bottom_cost">Общая стоимость</div>
+          <div class="card__bottom_cost">1 990 ₽</div>
+          <div class="card__bottom_cost">Ваша выгода</div>
+          <div class="card__bottom_cost">0 ₽</div>
+          <div class="card__bottom_cost">Стоимость месяца</div>
+          <div class="card__bottom_cost">1 990 ₽/мес</div>
+          <button class="button-buy">Бесплатно 14 дней</button>
+        </div>
+
+      </div>
+      <!-- 6 month -->
+      <div class="card">
+        <div class="card__top">
+          <div class="discount">Выгода <b>25%</b></div>
+          <div class="card__top_month">6 месяцев</div>
+          <div class="card__top_afterMonth">
+            Тариф подойдёт для тех, кто уверенно ведёт финансовый учёт
+          </div>
+        </div>
+        <div class="card__bottom">
+          <div class="card__bottom_cost">Общая стоимость</div>
+          <div class="card__bottom_cost">8 940 ₽</div>
+          <div class="card__bottom_cost">Ваша выгода</div>
+          <div class="card__bottom_cost"><span class="yellow-cost">3 000 ₽</span></div>
+          <div class="card__bottom_cost">Стоимость месяца</div>
+          <div class="card__bottom_cost">1 490 ₽/мес</div>
+          <button class="button-buy">Бесплатно 14 дней</button>
+        </div>
+      </div>
+      <!-- 12 month -->
+      <div class="card card12mon">
+        <div class="card__top" id="card__top-12month">
+          <div class="discount">Выгода <b>50%</b></div>
+          <div class="card__top_month">12 месяцев</div>
+          <div class="card__top_afterMonth card__top_afterMonth-12">
+            Тариф подойдёт для тех, кто уверенно ведёт финансовый учёт и хочет
+            сэкономить
+          </div>
+        </div>
+        <div class="card__bottom">
+          <div class="card__bottom_cost">Общая стоимость</div>
+          <div class="card__bottom_cost">11 880 ₽</div>
+
+          <div class="card__bottom_cost">Ваша выгода</div>
+          <div class="card__bottom_cost"><span class="yellow-cost">12 000 ₽</span></div>
+
+          <div class="card__bottom_cost">Стоимость месяца</div>
+          <div class="card__bottom_cost">990 ₽/мес</div>
+          <button class="button-buy button-buy-12">Бесплатно 14 дней</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h1 class="feedback-h1">Отзывы</h1>
+    <div class="feedback">
+
+
+      <div class="feedback__top-wrapper">
+        <div class="feedback__top">
+          <button class="button-next-left button-mod">
+            <img class="button-next-left-img" src="./images/chevron-circle-left-Bold.svg" alt="button left">
+          </button>
+
+          <h2>Впервые за долгое время увидела свои расходы и доходы как на ладони.</h2>
+          <p class="feedback__top_author">Даня Валеева<br />
+            <span class="feedback__top_status">Продавец Wildberries</span>
+          </p>
+          <img class="mobile-button" src="./images/Group 242.svg" alt="mobile">
+        </div>
+      </div>
+
+
+      <div class="feedback__bottom">
+        <img class="feedback__bottom_img" src="./images/image 49.png" alt="photo of Даня Валеева">
+
+        <button class="button-next-right button-mod">
+          <img class="button-next-right-img" src="./images/chevron-circle-right-Bold.svg" alt="button right">
+        </button>
+
+      </div>
+
+    </div>
+  </section>
+</body>
+
+</html>
